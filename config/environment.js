@@ -3,6 +3,11 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'boa',
+    fontawesome: {
+      icons: {
+        'free-solid-svg-icons': 'all'   
+      }
+    },
     environment,
     rootURL: '/',
     locationType: 'auto',

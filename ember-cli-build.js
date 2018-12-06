@@ -5,8 +5,19 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
+    fontawesome: {
+      icons: {
+        'free-solid-svg-icons': [
+          'stroopwafel'
+         ]
+      }
+    }
   });
-
+  // app.import('public/js/jquery.min.js');
+  // app.import('public/js/bootstrap.min.js');
+  // app.import('public/js/jqBootstrapValidation.js');
+  // app.import('public/js/contact_me.js');
+  // app.import('public/js/freelancer.min.js');
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
